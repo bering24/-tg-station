@@ -19,7 +19,7 @@
 #define BANTYPE_ADMIN_TEMP	8
 
 //Please don't edit these values without speaking to Errorage first	~Carn
-//Admin Permissions
+//Admin Permissions lel
 #define R_BUILDMODE		1
 #define R_ADMIN			2
 #define R_BAN			4
