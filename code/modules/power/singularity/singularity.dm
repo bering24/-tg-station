@@ -4,7 +4,7 @@
 	name = "gravitational singularity"
 	desc = "A gravitational singularity."
 	icon = 'icons/obj/singularity.dmi'
-	icon_state = "singularity_s1"
+	icon_state = "singularity_s1_yoba"
 	anchored = 1
 	density = 1
 	layer = 6
@@ -133,7 +133,7 @@
 		if(STAGE_ONE)
 			current_size = STAGE_ONE
 			icon = 'icons/obj/singularity.dmi'
-			icon_state = "singularity_s1"
+			icon_state = "singularity_s1_yoba"
 			pixel_x = 0
 			pixel_y = 0
 			grav_pull = 4
@@ -144,7 +144,7 @@
 		if(STAGE_TWO)//1 to 3 does not check for the turfs if you put the gens right next to a 1x1 then its going to eat them
 			current_size = STAGE_TWO
 			icon = 'icons/effects/96x96.dmi'
-			icon_state = "singularity_s3"
+			icon_state = "singularity_s3_yoba"
 			pixel_x = -32
 			pixel_y = -32
 			grav_pull = 6
@@ -156,7 +156,7 @@
 			if((check_turfs_in(1,2))&&(check_turfs_in(2,2))&&(check_turfs_in(4,2))&&(check_turfs_in(8,2)))
 				current_size = STAGE_THREE
 				icon = 'icons/effects/160x160.dmi'
-				icon_state = "singularity_s5"
+				icon_state = "singularity_s5_yoba"
 				pixel_x = -64
 				pixel_y = -64
 				grav_pull = 8
@@ -168,7 +168,7 @@
 			if((check_turfs_in(1,3))&&(check_turfs_in(2,3))&&(check_turfs_in(4,3))&&(check_turfs_in(8,3)))
 				current_size = STAGE_FOUR
 				icon = 'icons/effects/224x224.dmi'
-				icon_state = "singularity_s7"
+				icon_state = "singularity_s7_yoba"
 				pixel_x = -96
 				pixel_y = -96
 				grav_pull = 10
@@ -179,7 +179,7 @@
 		if(STAGE_FIVE)//this one also lacks a check for gens because it eats everything
 			current_size = STAGE_FIVE
 			icon = 'icons/effects/288x288.dmi'
-			icon_state = "singularity_s9"
+			icon_state = "singularity_s9_yoba"
 			pixel_x = -128
 			pixel_y = -128
 			grav_pull = 10
